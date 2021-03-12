@@ -1,2 +1,6 @@
-# TicketB2B
-Used for Writing End to End ETL project for a ticket B2B System from source injestion to target DWH.
+# Prodapt
+Download the project and run :
+sbt clean compile assembly
+This will create an assembly jar which can be used inspark submit.
+
+spark-submit  --master local[*]  --class Assignment   <jarpath>   <input folder> <output folder>
