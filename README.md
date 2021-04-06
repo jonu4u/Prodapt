@@ -1,5 +1,6 @@
 # Prodapt
 Download the project and run :
+test
 sbt clean compile assembly
 This will create an assembly jar which can be used inspark submit.
 
